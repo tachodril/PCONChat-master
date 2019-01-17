@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity {
         //TODO 10: autologin
         FirebaseUser user = mAuth.getCurrentUser();
         updateUI(user, false);
-        Log.v("Hello","Hello");
+       Log.v("HELLOWORLD","HELLOWORLD");
     }
 
     @Override
