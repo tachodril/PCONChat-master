@@ -7,6 +7,7 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -47,6 +48,7 @@ public class LoginActivity extends AppCompatActivity {
         //TODO 10: autologin
         FirebaseUser user = mAuth.getCurrentUser();
         updateUI(user, false);
+        Log.v("Hello","Hello");
     }
 
     @Override
