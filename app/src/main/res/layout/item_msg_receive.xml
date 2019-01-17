@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:id="@+id/item_content"
+        android:gravity="end"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center_vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/msg_timestamp"
+                android:textSize="12sp"
+                android:textColor="@color/textColorLight"
+                />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Naman"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_gravity="end"
+            android:id="@+id/msg_name"
+            android:textColor="@color/textColor"
+            />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="my name  hazatibagh"
+            android:textSize="13sp"
+            android:id="@+id/msg_body"
+            android:textColor="@color/textColor"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="H"
+        android:textSize="20sp"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:id="@+id/msg_head"
+        />
+</LinearLayout>

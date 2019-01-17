@@ -1,0 +1,107 @@
+<!--TODO:backgroundcolor-->
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="10dp"
+    android:id="@+id/login_rel"
+    android:background="#ffffff"
+    >
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_app_icon"
+        android:id="@+id/theme_img"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+        <!-- TODO: add TextInputLayout and TextInputEditText -->
+        <android.support.design.widget.TextInputLayout
+        style="@style/TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:id="@+id/login_email_wrapper"
+        >
+
+        <android.support.design.widget.TextInputEditText
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/textColor"
+        />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+        style="@style/TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:id="@+id/login_password_wrapper"
+        app:passwordToggleEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/textColor"
+        />
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginRight="5dp"
+            >
+            <!--TODO: add borderless button style -->
+            <!--TODO:textcolor-->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textColor="#455a64"
+                android:id="@+id/login_cancel"
+                />
+            <!--TODO: add button shape -->
+            <!--TODO:textcolor-->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:id="@+id/login_submit"
+                android:textColor="#455a64"
+                />
+        </LinearLayout>
+        <!--TODO:textcolor-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No account yet? Create one"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/login_register"
+            android:textColor="#455a64"
+            />
+    </LinearLayout>
+</RelativeLayout>
+

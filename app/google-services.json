@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "908072493521",
+    "firebase_url": "https://pconchat-abf54.firebaseio.com",
+    "project_id": "pconchat-abf54",
+    "storage_bucket": "pconchat-abf54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908072493521:android:6db1ce8fb3b57f16",
+        "android_client_info": {
+          "package_name": "com.chat.pcon.pconchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908072493521-6aeje4cse7m507afifpakkn17jnqslff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chat.pcon.pconchat",
+            "certificate_hash": "409cceebf89939a9cff920ee69bb8f7c571c1d35"
+          }
+        },
+        {
+          "client_id": "908072493521-s81s490as35nqn1i282sjs968lum0j6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw-VbZmqt_QjG_p3OyCdqMpP9kjCEtXG4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908072493521-s81s490as35nqn1i282sjs968lum0j6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
